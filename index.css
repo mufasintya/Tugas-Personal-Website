@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Aladin&family=Alice&family=Bowlby+One&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Denk+One&family=Luxurious+Script&family=Playball&display=swap");
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+section {
+  background-color: #351e2c;
+  color: white;
+}
+h2 {
+  display: flex;
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+hr {
+  display: flex;
+  border-top: 0.1px solid #eca842;
+  width: 100%;
+}
+section h1 {
+  display: flex;
+  position: absolute;
+  opacity: 20%;
+  font-size: 100px;
+}
+/* HEADER */
+header {
+}
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 1000;
+  justify-content: end;
+  align-items: center;
+  background-color: #933f4a;
+}
+.navbar a {
+  padding-right: 50px;
+  font-size: 17px;
+  font-family: "Denk One", sans-serif;
+  color: white;
+}
+.navbar a:hover {
+  color: #a8c7b9;
+  transition: 0.2rem all linear;
+}
+/* HEADING */
+.heading {
+  padding-top: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #351e2c;
+  height: 700px;
+}
+.heading-foto{
+  position: relative;
+  z-index: 100;
+
+}
+.heading-contain {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("daun2.jpg");
+  position: absolute;
+  opacity: 70%;
+  height: 700px;
+  width: 100%;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+}
+.heading h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Bowlby One", sans-serif;
+  font-size: 50px;
+  padding: 100px 0 30px 0;
+  color: #eca842;
+}
+.heading h1 {
+  display: flex;
+  position: absolute; /*ketika absolute, margin tidak berlaku*/
+  top: 460px;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  font-family: "Luxurious Script", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 130px;
+  padding-top: 10px;
+  color: white;
+}
+.heading img {
+  /* display: flex; */
+  border-radius: 50%;
+  /* margin-bottom: 200px; */
+  height: 250px;
+  /* z-index: 100; */
+}
+
+/* ABOUT */
+.about {
+  padding: 60px;
+  margin: 0;
+  background-color: #77353e;
+}
+.about-contain {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  /* align-items: center; */
+}
+
+.about-image img {
+  padding: 10px;
+  margin-left: 100px;
+  border-radius: 300px;
+  height: 300px;
+}
+.about-text hr {
+  margin-bottom: 50px;
+  width: 135px;
+}
+.about-text p {
+  padding: 40px 100px 0px 0px;
+}
+.about-text h2 {
+  padding-top: 40px;
+}
+.about-text h3 {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+}
+/* PORTFOLIO */
+
+.portfolio h1 {
+  padding: 60px 0 30px 130px;
+}
+.portfolio-contain {
+  display: flex;
+  flex-direction: row;
+  /* gap: 285px; */
+  width: 100%;
+  justify-content: center;
+}
+.portfolio-content {
+  padding: 20px;
+  margin: 20px;
+  height: 30px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: #9e545f;
+  color: #fae9ee;
+}
+.portfolio-content:hover {
+  background-color: #88323d;
+}
+.portfolio-contain .c {
+  background-color: #efadb1;
+  color: #351e2c;
+}
+.portfolio-contain .c:hover {
+  background-color: #f7c9cc;
+}
+.portfolio h2 {
+  padding: 100px 0px 0px 140px;
+}
+.portfolio hr {
+  width: 100px;
+  margin: 0 0 50px 140px;
+}
+/* CONTACT */
+.contact {
+  padding: 60px 140px 70px 140px;
+}
+
+.contact h2 {
+  padding-top: 40px;
+}
+.contact li {
+  display: flex;
+  padding-left: 50px;
+  align-items: center; /* Mengatur ikon dan teks agar sejajar */
+}
+.contact li span {
+  margin-left: 20px; /* Jarak antara ikon dan teks */
+}
+.contact hr {
+  margin: 20px 0;
+}
+.contact .garis {
+  width: 75px;
+  margin: 0 0 70px 0;
+}
+.contact .bx {
+  font-size: 20px;
+}
+/* FOOTER */
+.footer {
+  text-align: center;
+  background-color: #933f4a;
+  padding: 20px;
+}
+.footer i {
+  padding: 8px;
+  font-size: 25px;
+  margin: 10px 2px;
+  border-radius: 10px;
+  background-color: #e9e3e3;
+  color: #933f4a;
+}
+.footer i:hover {
+  background-color: #b1a2a2;
+}
