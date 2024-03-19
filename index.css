@@ -58,10 +58,9 @@ header {
   background-color: #351e2c;
   height: 700px;
 }
-.heading-foto{
+.heading-foto {
   position: relative;
   z-index: 100;
-
 }
 .heading-contain {
   background-repeat: no-repeat;
